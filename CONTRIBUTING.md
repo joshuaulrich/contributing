@@ -71,6 +71,7 @@ here is an example of a great [xts commit message](https://github.com/joshuaulri
 
 ```text
 Correct endpoints when index is before the epoch
+
 The endpoints C code casts the double index to long, which truncates
 it toward zero. This behavior is desired when the index is positive,
 because it moves the endpoint *back* in time. But when the index is
