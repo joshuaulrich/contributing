@@ -34,15 +34,18 @@ mailing list (you must subscribe to post).
    [create an issue](#have-a-bug-report-or-feature-request) and wait for
    feedback *before* you start work on a pull request. That will avoid the
    possibility you spend time on a patch that won't be merged.
-3. Create a branch for the feature/bug fix reported in the issue, and use that
-   as a base for your pull requests. Pull requests on your version of `master`
-   will not be accepted.
-4. A pull request should only be for one issue, so please rebase and squash
-   the commits on your feature branch into one commit before creating the pull
-   request. Use this opportunity to write a great [commit message](#commit-messages).
-5. Use the pull request description to clearly state what the pull request does
-   (i.e. the bug/feature your pull request addresses, and the respective issue
-   number).
+3. Create a branch for the feature/bug fix reported in the issue. Please use a
+   short and descriptive branch name that starts with the issue number (e.g.
+   123_custom_function). Use that branch as the base for your pull request.
+   Pull requests on your version of `master` will not be accepted, because
+   they can make it difficult for you to update your fork if your pull request
+   isn't incorporated verbatim.
+4. A pull request should only be for one issue, so please `git rebase -i` and
+   squash the commits on your feature branch into one commit before creating
+   the pull request. Please use `git commit --amend` to amend your commit if
+   you are asked to make changes. It's okay to force update your pull request
+   with `git push --force`.
+5. Please write a great [commit message](#commit-messages).
 6. It would be much appreciated if you also add tests that cover your changes.
 
 ----
