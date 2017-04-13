@@ -10,20 +10,21 @@ mailing list (you must subscribe to post).
 1. Determine which repository the bug/feature should be reported in. The process
    of creating a [*minimal*, reproducible example](http://stackoverflow.com/q/5963269/271616)
    should identify the package that contains the bug or should contain the
-   feature. Email me if you're unsure where to create an issue.
+   feature. Please email the maintainer if you're unsure where to create an
+   issue.
 2. Search current open GitHub [issues]() to check if the bug/feature has already
    been reported/requested.
 [//]: # "FIXME: Should there be a bug/feature split here?"
-3. Ensure your local copy is up-to-date, and verify the bug still exists in the
-   HEAD of the master branch.
+3. Ensure your fork and local copy are up-to-date, and verify the bug still
+   exists in the HEAD of the master branch.
 4. If the bug exists in the HEAD of master, and you can't find an open issue,
    then [open a new issue](). Please be sure to:
   * Use an informative and descriptive title,
-  * Include as much relevant information as possible; at minimum:
-    * a [minimal, reproducible example](http://stackoverflow.com/q/5963269/271616)
-    * the output from `sessionInfo()`.
   * Describe the expected behavior and why you think the current behavior is
     a bug.
+  * Include as much relevant information as possible; at minimum:
+    * a [*minimal*, reproducible example](http://stackoverflow.com/q/5963269/271616)
+    * the output from `sessionInfo()`.
 
 # Want to submit a pull request?
 
