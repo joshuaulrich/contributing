@@ -51,14 +51,6 @@ mailing list (you must subscribe to post).
 
 ----
 
-# Commits
-* don't mix functional and non-functional changes (you didn't make
-  non-funcitonal changes, did you? :P)
-* try to make each commit a logically separate changeset
-  * use `git add --patch` to interactively stage changes
-* style guide...
-  * in `if` statments, use `&&`, `||`, `isTRUE`
-
 # Commit Messages
 
 Follow the [The Seven Rules](http://chris.beams.io/posts/git-commit/#seven-rules)
