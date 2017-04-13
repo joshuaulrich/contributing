@@ -16,17 +16,16 @@ mailing list (you must subscribe to post).
    issue.
 2. Search current open GitHub [issues]() to check if the bug/feature has already
    been reported/requested.
-[//]: # "FIXME: Should there be a bug/feature split here?"
 3. Ensure your fork and local copy are up-to-date, and verify the bug still
    exists in the HEAD of the master branch.
 4. If the bug exists in the HEAD of master, and you can't find an open issue,
    then [open a new issue](). Please be sure to:
-  * Use an informative and descriptive title,
-  * Describe the expected behavior and why you think the current behavior is
-    a bug.
-  * Include as much relevant information as possible; at minimum:
-    * a [*minimal*, reproducible example](http://stackoverflow.com/q/5963269/271616)
-    * the output from `sessionInfo()`.
+    * Use an informative and descriptive title,
+    * Describe the expected behavior and why you think the current behavior is
+      a bug.
+    * Include as much relevant information as possible; at minimum:
+        * a [*minimal*, reproducible example](http://stackoverflow.com/q/5963269/271616)
+        * the output from `sessionInfo()`
 
 ----
 
@@ -55,11 +54,11 @@ mailing list (you must subscribe to post).
 
 ----
 
-# Commit Messages
+### Commit Messages
 
 Follow the [The Seven Rules](http://chris.beams.io/posts/git-commit/#seven-rules)
 of [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/).
-Pay particular attention to rule 7: [Use the body to explain what and why
+Pay particular attention to [rule 7: Use the body to explain what and why
 versus how](http://chris.beams.io/posts/git-commit/#why-not-how). The body
 should also include the motivation for the change and how it compares to prior
 behavior.
