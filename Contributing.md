@@ -1,11 +1,13 @@
-# Have a question?
+### Have a question?
 
 Please do not open an issue to ask a question about how to use the package.
 Instead, ask your question on [Stack Overflow](http://stackoverflow.com/questions/tagged/r)
 or the [R-SIG-Finance](https://stat.ethz.ch/mailman/listinfo/r-sig-finance)
 mailing list (you must subscribe to post).
 
-# Have a bug report or feature request?
+----
+
+### Have a bug report or feature request?
 
 1. Determine which repository the bug/feature should be reported in. The process
    of creating a [*minimal*, reproducible example](http://stackoverflow.com/q/5963269/271616)
@@ -26,7 +28,9 @@ mailing list (you must subscribe to post).
     * a [*minimal*, reproducible example](http://stackoverflow.com/q/5963269/271616)
     * the output from `sessionInfo()`.
 
-# Want to submit a pull request?
+----
+
+### Want to submit a pull request?
 
 1. Changes that are purely cosmetic in nature (e.g. whitespace changes, code
    formatting, etc) will generally not be accepted because they do not add to
@@ -67,7 +71,9 @@ the GitHub issue* on the last line of your commit message body. Look at [this
 commit](https://github.com/joshuaulrich/xts/commit/ce1b667ab7c38cb2633fca0075652a69e5d2a343)
 for an example.
 
-# References:
+----
+
+### References:
 1. The [data.table Contributing Guide](https://github.com/Rdatatable/data.table/blob/master/Contributing.md).
 2. The [Atom Contributing Guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md).
 3. How to create a [minimal, reproducible example](http://stackoverflow.com/q/5963269/271616).
