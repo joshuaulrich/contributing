@@ -67,9 +67,29 @@ behavior.
 If the commit is to fix a bug or add a feature, the commit message should
 contain enough information to understand the bug/feature without having to
 reference an external tracker (e.g. GitHub issues). But please *do reference
-the GitHub issue* on the last line of your commit message body. Look at [this
-commit](https://github.com/joshuaulrich/xts/commit/ce1b667ab7c38cb2633fca0075652a69e5d2a343)
-for an example.
+the GitHub issue* on the last line of your commit message body. For example,
+here is an example of a great [xts commit message](https://github.com/joshuaulrich/xts/commit/ce1b667ab7c38cb2633fca0075652a69e5d2a343):
+
+```text
+Correct endpoints when index is before the epoch
+The endpoints C code casts the double index to long, which truncates
+it toward zero. This behavior is desired when the index is positive,
+because it moves the endpoint *back* in time. But when the index is
+negative, truncating toward zero moves the endpoint *forward* in time.
+
+This is also an issue if the index value is stored as integer, since the
+C99 specification states that integer division truncates toward zero.
+
+If the first index value is less than zero, branch into a special case
+to handle pre-epoch index values. This avoids performance degradation
+if all index values are after the epoch.
+
+If the index value is less than zero, simply add 1 to offset the
+truncation toward zero. We also need to furthre adjust the potential
+endpoint value if the index is exactly equal to zero.
+
+Fixes #144.
+```
 
 ----
 
