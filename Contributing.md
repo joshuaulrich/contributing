@@ -72,4 +72,6 @@ for an example.
 2. The [Atom Contributing Guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md).
 3. How to create a [minimal, reproducible example](http://stackoverflow.com/q/5963269/271616).
 4. [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/).
+5. The [Mercurial Contributing Guide](https://www.mercurial-scm.org/wiki/ContributingChanges).
+6. The [Hugo Contributing Guide](https://github.com/spf13/hugo/blob/master/CONTRIBUTING.md).
 
